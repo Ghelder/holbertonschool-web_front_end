@@ -274,6 +274,16 @@ a:active {
     padding: var(--section-header-padding);
 }
 
+.section-body{
+    padding: var(--section-body-padding);
+}
+
+
+.section-footer {
+    padding: var(--section-footer-padding);
+    text-align: var(--section-footer-align);
+}
+
 .card-category {
     color: var(--color-primary);
 }
@@ -297,4 +307,8 @@ a:active {
     width: 960px;
     margin-left: auto;
     margin-right: auto;
+}
+
+.footer {
+    padding: var(--footer-padding);
 }
